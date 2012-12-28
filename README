@@ -1,2 +1,7 @@
 This is a test for post-receives hooks.
 This is a test for post-receives hooks.
+
+
+Basicamente hicieron un webHook con el payload. Después según el servicio que sea el Sinatra lo procesa y lo hace. 
+
+Si es twitter entonces lo manda por allá. Si es otra cosa lo procesa cada cosa. Tiene un Strategy encapsulado en un webservice. 
